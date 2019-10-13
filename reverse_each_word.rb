@@ -1,5 +1,6 @@
 def reverse_slicing(s)
     return s[::-1]
+end
 
 input_str = 'ABç∂EF'
 
