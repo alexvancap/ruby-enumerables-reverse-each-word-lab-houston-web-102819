@@ -4,3 +4,5 @@ def reverse_each_word(sentence)
   string.size.times { reversed << split_string.pop }
   reversed.join
 end
+
+puts reverse_each_word("alex, is cool")
