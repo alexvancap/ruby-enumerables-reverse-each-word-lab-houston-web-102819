@@ -3,9 +3,7 @@ def reverse_each_word(sentence)
   word_to_reverse = ""
 
   sentence.split.collect do |word|
-    word.split.collect{ |char|
-      reversed.reverse.push(char)
-    }
+    word_to_reverse = word
   end
 end
 
