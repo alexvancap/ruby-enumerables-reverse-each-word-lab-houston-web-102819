@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   sentence.split.each do |char|
     reversed.unshift char
   end
-  reversed.join('')
+  reversed.join(' ')
 end
 
 puts reverse_each_word("alex, is cool")
