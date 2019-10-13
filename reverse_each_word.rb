@@ -4,3 +4,5 @@ def reverse_each_word(senten)
   sentence.each{ |index| index.reverse}
   puts sentence
 end
+
+reverse_each_word("gollo hdrghfs")
