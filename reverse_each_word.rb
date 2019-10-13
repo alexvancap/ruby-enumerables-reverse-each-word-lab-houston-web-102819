@@ -4,6 +4,7 @@ def reverse_each_word(sentence)
   string.size.each{||}
 
   new_sentence.each{|i| reversed << new_sentence.pop}
+  return new_sentence
 end
 
 puts reverse_each_word("alex, is cool")
