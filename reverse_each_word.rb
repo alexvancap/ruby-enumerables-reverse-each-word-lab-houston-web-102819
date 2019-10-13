@@ -6,5 +6,3 @@ def reverse_each_word(sentence)
   end
   return reversed.join(" ")
 end
-
-puts reverse_each_word("alex, is cool")
