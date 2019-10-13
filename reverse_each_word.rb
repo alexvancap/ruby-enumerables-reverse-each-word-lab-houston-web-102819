@@ -1,9 +1,8 @@
 def reverse_each_word(sentence)
-  new_sentence = sentence.split('')
+  split_string = string.split("")
   reversed = []
-
-  new_sentence.each{|s| reversed.push(new_sentence.pop())}
-  return puts reversed
+  string.size.times { reversed << split_string.pop }
+  reversed.join
 end
 
 reverse_each_word("alex, is cool")
