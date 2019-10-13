@@ -1,8 +1,8 @@
 def reverse_each_word(sentence)
-  new_sentence = sentence.split(',')
+  sentence.split(',')
 
-  new_sentence.each{|index|
-    new_sentence[index].reverse
+  sentence.each{|index|
+    new_sentence.push(sentence[index].reverse)
   }
 end
 
