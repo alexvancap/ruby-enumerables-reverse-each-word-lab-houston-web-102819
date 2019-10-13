@@ -1,10 +1,9 @@
-def reverse_slicing(s)
-    return s[::-1]
+def reverse_each_word(sentence)
+  new_sentence = sentence.split('')
+  reversed = []
+  
+
+  new_sentence.each{|i| i.reverse}
 end
-
-input_str = 'ABç∂EF'
-
-if __name__ == "__main__"
-    print('Reverse String using slicing =', reverse_slicing(input_str))
 
 puts reverse_each_word("alex, is cool")
