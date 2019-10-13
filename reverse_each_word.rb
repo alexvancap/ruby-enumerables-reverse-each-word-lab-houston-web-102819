@@ -6,4 +6,4 @@ def reverse_each_word(sentence)
   new_sentence
 end
 
-puts reverse_each_word("gollo hdrghfs")
+puts reverse_each_word("alex is cool")
