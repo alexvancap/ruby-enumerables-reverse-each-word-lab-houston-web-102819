@@ -1,7 +1,6 @@
 def reverse_each_word(sentence)
+  new_sentence = "Hello world!"
   sentence.split(',')
-
-  puts sentence
 end
 
 reverse_each_word("gollo hdrghfs")
