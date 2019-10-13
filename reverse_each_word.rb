@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   reversed = []
 
   new_sentence.each{|s| reversed.push(new_sentence.pop())}
-  return reversed
+  return puts reversed
 end
 
 reverse_each_word("alex, is cool")
